@@ -1,0 +1,68 @@
+Protkół http : 
+1) typy requestów: 
+
+- get 
+- head
+- post
+- put 
+
+2 ) kody odpowiedzi http : 
+
+- succeces code ( 200 ,, dotarła ", 201 ,, utworzenie dokumentu ", 202 ,, przyjęto zapytanie ", 204 ,, serwer przyjął ale empty )
+- kody przekierowania ( 300, 301 ,, trwale przeniesony ", 310 ,, za dużo redirectów " ) 
+- kody błędów klienta - client -  site - side ( 400,  404 ,, strona niedostępna " )
+- kody błędów serwera - server side - server site  ( 500 ,, internal server error, 502 ,, bad gateway''  504 ,, gateway taimeout '' )
+
+
+
+wget - używamy do pobierania zawartości z internetu używająć requestu get 
+curl -i + flagi - do przeobienia !!!
+
+
+
+
+
+3 ) Co przeszkodzi w utworzeniu pliku na linuchu 
+
+- uprawnienia 
+- ownership ( do kogo należy plik )
+
+
+
+
+
+Tooling : 
+
+1) typy agentów ( ansible, terraform .. ) - dzielimy na agent i agentless
+
+
+- Agent - Serwis musi chodzic w postaci agenta na serwerze do wykonywania czynnosci dannego toola 
+- Agentless - Kod moze zostac wykonany zdalnie bez potrzeby tego aby chodzil jakikolwiek agent na docelowym serwerze.
+
+
+
+
+
+
+
+
+
+DNS: 
+
+
+Domain Name Severs - rozproszony system nazw sieciowych, rozoznajemy pare typów rekordów 
+
+1 ) cname -Alias Hosta - nie mogą wspóistnieć z innym rekordami o takiej samej nazwie, odwołują się do zazwyczaj rekordów IP ( CNAME twojastrona.pl  => A twoj_serwer_w_serwerowni_IP )
+2.) NS - Adres serwera datacentre -  Rekordy serwerow hostujacych np datacentre. np kupujesz domene w google a musisz ustawic dla domeny NS z digital ocean bo tam masz serwer 
+3.) A - Adres Serwera - Adres Ipv4
+4.) PTR - adres odwrotny 
+5-) TXt - Pole tekstowe 
+6). SRV - Rekord uslugi 
+7).Mx - Rekordy Mail 
+
+
+
+Inodes : 
+- is data structure in UNIX, that describe file objects, it inodes store atribiute and mata data form. 
+-  tzw i-węzeł, jest to unikaotwy istnięjaćy numer w systemie linux, kiedy plik jest tworzony w systemie do pliku jest przypiswany iwęzeł ,, inode " i cyfra
+- każdy inode ma swój limit, jeśli przekroczymy nie będziemy mogli stworzyć pliku  
