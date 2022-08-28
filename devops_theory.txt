@@ -1,0 +1,55 @@
+Devops aims to fill the gap beetwen opereations team and developer teams, in most cases, because its a tricky questio as devops is involved in few lifecycles it can be applied so it depends on whats the company approach how they fit their devops culture into their workload. They are experts and involved into Ci/Cd  cloud , infrastructure and monitoring.
+
+
+
+HoW IS DEVOPS DIFFERENT FROM AGILE METHODOLOGY ? 
+
+agile methodology is a technique and methodology how to release code and stuff like there where devops is a culture and position that results in work that participate in developemnt testing and integration as inside engineers , where agile methodology is approach taken towards code releases.
+
+WHAT ARE THE DIFFERENT PHASES IN DEVOPS 
+
+Plan - Initialy there should be a plan for the type of application that needs to be developed, Getting a rough picture of the development 
+Code - tooling for devops and participation in developer code 
+Build - Build application through various integration systems 
+Test  - Test using testing software to find out if anything needs to be rebuild or its safe to to go on production 
+Integrate  - Ci/Cd multiple codes from multiple teams coming through one of your tooling systems like : Jenkins, Gitlab 
+Deploy - Deploy the code into your infrastructure 
+Operate - Operations performed in the cloud infra/infra/code management 
+Monitor  - Application/tooling performance monitored. 
+
+
+DEVOPS bENEFITS : 
+
+- Continous software delivery 
+- Less complex problems to manage because of the automation 
+- Early detectiob and correction 
+-Architecturing/consulting clouds 
+
+
+Business benefits : 
+-Stability 
+-Faster delivery 
+-Cloud costs optimisation 
+
+
+How you will approach a project that does not devops or they just starting to implement it 
+
+
+Stage 1 
+
+- Assessment , reconessance of the infrastructure, speaking with developers, asking what could be improvied, looking for ways and implementing already known-ways of automation speeding up the process and stability  of the lifecycle 
+
+Stage 2 
+
+Plan it in time ( time schedule ) creating a POC ( Proof of concept ) 
+
+
+Stage 3 
+
+project ready to be implemented, its been tested, there is delivery process, monitoring process... etc 
+
+
+KPI ( Key performance indicator )
+Meantime to failure recovery - This is the average time taken to recover from a failure 
+Deployment frequency - how often you deploy, how often that occurs 
+Percentage of failed deployments - number of times deployments fails 
